@@ -2,7 +2,7 @@
 
 > A structured, from-scratch learning project covering core RL theory,
 > deep learning foundations, and applied Deep Q-Learning.
-> Built as part of a self-directed RL curriculum by Devam Shah.
+> Built as part of a self-directed RL curriculum.
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.12.0+cu126-orange)](https://pytorch.org/)
@@ -258,7 +258,7 @@ venv\Scripts\activate          # Windows
 source venv/bin/activate       # Linux/Mac
 
 # Install dependencies
-uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126    #Check CUDA version properly before installing
 uv pip install gymnasium matplotlib numpy
 
 # Verify GPU
